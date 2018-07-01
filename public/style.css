@@ -1,0 +1,298 @@
+@media only screen and (min-width: 992px) {
+
+	#about {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+}
+
+
+@media only screen and (max-width: 850px) {
+	
+	#mem1 {
+		width: 100%;
+	}
+
+	#mem2 {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#mem3 {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#mem4 {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#serv1 {
+		width: 100%;
+	}
+	
+	#serv2 {
+		width: 100%;
+		margin-top: 20px;
+	}
+
+	#map {
+		height: 220px;
+		position: relative;
+		padding-left: 0px;
+	}
+
+	#contactFormContainer {
+		opacity: 1;
+		background-color: #edede5;
+		margin-left: 0;
+		width: 100%;
+		height: auto !important;
+	}
+
+	#contact-div {
+		height: 690px !important;
+	}
+}
+
+@media only screen and (min-width: 851px) {
+	#map {
+		height: 480px;
+		position: absolute !important;
+		padding-left: 0px;
+	}
+}
+
+#hero-div {
+	position: relative; 
+	left: 0%; 
+	width: 100%; 
+	overflow: hidden;
+}
+
+#hero-img {
+	position: absolute; 
+	width:100%; 
+	z-index: -1;
+}
+
+#hero-title {
+	position: relative; 
+	text-align: center; 
+	font-size: 4em; 
+	margin-top:15%; 
+	color: #ffffff;
+}
+
+#sent {
+	position: absolute;
+	width: 100%;
+}
+
+#godown {
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+#about-btn {
+	position: relative; 
+	height: 50px; 
+	display: inline-block; 
+	border-radius: 20px;
+}
+
+#contact-btn {
+	position: relative; 
+	height: 50px; 
+	display: inline-block; 
+	border-radius: 20px;
+}
+
+.container {
+	padding-top: 30px;
+	padding-bottom:3%;
+}
+
+p {
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.center-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.service-img {
+	height: 100px; 
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#contact-div {
+	background-color: #edede5; 
+	margin-right: 0px;
+	height: 480px;
+	position: relative;
+}
+
+.contactForm {
+	text-align:center; 
+}
+
+.required {
+	color: #ff0000;
+	font-size: 15px;
+	margin-bottom: 0px;
+	text-align: left;
+}
+
+#submitBtn {
+	float:right; 
+	margin-bottom:10px;
+	background-color: #ebb129;
+	color: #ffffff;
+}
+
+#team {
+	background-color: #edede5;
+}
+
+.footer {
+	background-color:#2f2f2f;
+}
+
+.text-muted {
+	text-align:center; 
+	padding-top:20px; 
+	padding-bottom:20px; 
+	margin-bottom:0px; 
+	color:#ffffff !important;
+	font-size: 15px;
+}
+
+a {
+	color: #333333 !important;
+}
+
+#contactFormContainer {
+	background-color: #ffffff;
+	opacity: 0.9;
+	height: 100%;
+}
+
+
+
+#wishlist > nav ul{height:800px; width:18%;}
+#wishlist > nav ul{overflow:hidden; overflow-y:scroll;}
+
+#wishlist > nav > ul {
+	width: 100%;
+	background-color: white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#wishlist > nav > ul > li {
+	list-style-type: none;
+	padding-left: 0;
+	height: 160px;
+	margin-top: 20px;
+	border-bottom: solid #aaaaaa;
+}
+
+.thumbnail {
+	height: 140px;
+}
+
+.container {
+	margin-bottom: 60px;
+}
+
+.fb-login-button {
+	float: right;
+	margin-top: 18px;
+	margin-right: 15px;
+}
+
+#accountInfo {
+	margin-left: 15px;
+}
+
+#searchName {
+	height: 60px;
+    margin: 10px 20px;
+    width: 100%;
+    font-family: "Lato",helvetica,sans-serif;
+    font-size: 40px;
+}
+
+#searchButton {
+	font-size: 30px;
+	height: 60px;
+	width: 60px;
+	height: 60px;
+    background-color: #4D90FE !important;
+    color: #FFFFFF !important;
+    border-radius: 3px;
+    margin-top: 10px;
+    display: block;
+}
+
+#myWishList {
+	color: #FFFFFF !important;
+	background-color: #3B5998;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#friendsWishList {
+	color: #FFFFFF !important;
+	background-color: #3B5998;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+
+#navButtons {
+	float: right;
+}
+
+.section-one {
+	color: white;
+	height: 550px;
+	/*margin-left: 10%;
+	margin-top: 10%;*/
+	margin: auto
+	margin-top: 10px;
+	bottom: 0px;
+	left: 0px;
+	background-image: url("http://i.imgur.com/F9ka4M2.png");
+	color: white;
+}
+
+.section-two {
+	color:	black;
+	height: 750px;
+	margin-left: 10%;
+	margin-top: 10%;
+	background-color: white;
+}
+
+.col-md-4 {
+	color: #a8a8a8;
+}
+
+.icon {
+	height: 100px;
+	width:100px	;
+}

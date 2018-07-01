@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<html manifest="app_cache.appcache">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+		<title>Wish List</title>
+		<link rel="icon" type="image/png" href="./favicon.png" sizes="32x32">
+    	<link rel="stylesheet" href="./style.css">
+	</head>
+
+	<body style="font-family: 'Roboto', sans-serif">
+        <nav class="navbar navbar-default" style="margin-bottom: 0px; border: 0px; border-radius: 0px; background-color: #3B5998">
+            <div class="container" style="margin-bottom: 0px; padding-top: 10px; padding-bottom: 10px">
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav" id="accountInfo" style="color: #ffffff"></ul>
+                    <ul class="nav navbar-nav navbar-right">
+                    <li onclick="updateWishList(parentObj, '')" id="friendsWishList"><a style="color: white !important" href="#" onclick="return false;">Friends' wish list</a></li>
+                    <li onclick="updateWishList(parentObj, facebook_id)" id="myWishList"><a style="color: white !important" href="#" onclick="return false;">My wish list</a></li>
+                    <li class="fb-login-button" id="loginBtn" data-max-rows="1" data-size="medium" data-auto-logout-link="true"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-1 col-sm-1"></div>
+                <div class="col-md-10 col-sm-10">
+                    <div class="container" id="search" style="margin-bottom: 0px; padding-top: 10px; padding-bottom: 10px">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9" style="padding-left: 0px">
+                            <input type="text" class="form-control" placeholder="Who are you buying for?" id="searchName">
+                        </div>
+                        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-left: 0px">
+                            <button class="btn btn-default" id="searchButton" type="button" onclick="getSearchValue()"><i class="fa fa-search" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #e9ebee" id="wish">
+    		<div class="container" id="wishlist" style="padding-top: 0px; background-color: #e9ebee; margin-bottom: 0px">
+    		</div>
+        </div>
+
+		<footer class="footer">
+	        <p class="text-muted">&copy WishList 2017</p>
+	    </footer>
+
+	    <!-- Load less critical CSS files -->
+		<link rel="stylesheet" href="./bootstrap.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	    <!-- Load javascript files -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="default.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+        <script src="https://maps.google.com/maps/api/js?key=AIzaSyCfDa2odqDNj9xdjAx88wyA5Y3OsQAB5_c"></script>
+		<script src="gmaps.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</body>
+</html>
