@@ -1,4 +1,4 @@
-# wishlist
+# Wishlist
 
 A facebook app that you can add your items into your wish list and checkout your friends' wish lists.
 
