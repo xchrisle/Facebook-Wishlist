@@ -4,7 +4,7 @@ A facebook app that you can add your items into your wish list and checkout your
 
 ## Disclaimer:
 
-This was built for Facebook Sydney's 2017 Hackathon on the 29th-30th of April 2017. The original git repository that was used during the event is here: https://github.com/lijiancheng0614/wishlist
+This was built for Facebook Sydney's 2017 Hackathon on the 29th-30th of April 2017. 
 
 ## Run
 
